@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+  Name: William Sanders
+  Date: 09/20/24
+  CSC 340-02
+
+  This is the index.html page that is the home landing page for my e-commerce site.
+
+  Image Sources:
+  SplashCards.png -> Site: https://unsplash.com/s/photos/trading-cards
+  Singles.png -> Site: https://www.dreamstime.com/photos-images/trading-card.html
+  Accesories.png -> Site: https://www.pokemoncenter.com/product/710E12808/pokemon-tcg-scorching-charizard-premium-playmat
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Atomic Gaming TCG</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <header>
+      <ul class="nav text-bg-dark p-3">
+        <a class="nav-link" href="index.html"><img src="images/BrandIcon.png"></a>
+        <a class="navbar-brand" href="index.html"><h3>Atomic Gaming TCG </h3></a>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="careers.html">Careers</a>
+        </li>   
+    </header>
+    <body style="background-color: rgb(96, 92, 92);">
+      <div class="rounded mx-auto d-block" id="SplashContainer" style="background-image: url(images/SplashCards.png);height: 250px; width: 700px;">
+        <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; color: white; gap: 40px;">
+          <h2>Atomic Gaming TCG Marketplace!</h2>
+          <h4>Your first stop for all things card related.</h4>
+        </div>
+      </div>
+      <div class="container" id="Singles" style="color: white;">
+        <p style="font-size: x-large; text-align: center;">
+          Atomic Gaming is a leading TCG marketplace that provides quality trading card products across the United States. Whether its sealed trading pack products
+          to fill out your collection, listing for your favorite game's singles, or accesories to up your gaming experience, we provide all of this and more at competitive prices.
+        </p>
+        <div id="Cards" style="display: flex; flex-direction: row;">
+          <p>
+            We pride ourselves for being the leading brand for all of your niche card desires.
+            Are singles inventory ranges from popular card games such as Pokemon, Yugioh, and Lorcana to more fringe franchises such as FFTC, Flesh&Blood, and list goes on.
+            All singles are accurately price by market trends while maintaining price to condition standards as listed on product postings.
+            Single conditions are meticulously verified by our expert team of graders to ensure that all singles arrive in their advertised conditions. 
+            We also provie a professional grading service for any patrons looking to have their collections verified by PSA standards.
+          </p>
+          <img src="images/Singles.png" style="height: 300px;">
+        </div>
+        <div id="Accesories" style="display: flex; flex-direction: row; gap: 20px;">
+          <img src="images/Accessories.png" style="height: 300px;">
+          <p>
+            We also offer a variety of card accesories for any gaming needs. This ranges from card sleeves, playmats, deckboxes, toploaders, and the list keeps going.
+            If your looking for products from popular brands such as DragonShields, UltraPro, or SleevePros, we carry all recent products from those providers. 
+            Looking for that old LGS championships playmat? Our used products consist of rare and exclusives accesories only avaiable at store events or conventions.
+          </p>
+        </div>
+      </div>
+    </body>
+    <p style="color: white; display: flex; justify-content: center;">Image credits in comments</p>
+    <footer style="display: flex; justify-content: center; color: white;">
+      &copy; 2024 Atomic Gaming TCG. All rights reserved.
+    </footer>
